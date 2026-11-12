@@ -1,17 +1,26 @@
-# lab3mob
+# Лабораторная работа №3. Знакомство с Flutter
 
-A new Flutter project.
+первое веб-приложение на flutter, созданное с нуля для изучения структуры проекта, базовых виджетов и настройки внешнего вида экрана.
 
-## Getting Started
+## Автор
+Резник Анжелика Ильинична, группа ИСП-242
 
-This project is a starting point for a Flutter application.
+## Стек и версии
+* Flutter 3.41.x (stable)
+* Dart 3.13.x
+* Платформа: Web (Chrome)
+* IDE: VS Code
 
-A few resources to get you started if this is your first Flutter project:
+## Скриншот приложения
+![Результат работы](img/step9_Reznik.png)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Запуск
+1. Клонировать репозиторий: `git clone https://github.com/Anzhela2014/lab3mob`
+2. Перейти в папку проекта: `cd lab3mob`
+3. Выполнить `flutter pub get`
+4. Запустить командой `flutter run -d chrome`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Что изучили
+* как устроена структура flutter-проекта и за что отвечают основные папки (`lib`, `web`, `pubspec.yaml`)
+* как пользоваться горячей перезагрузкой (`Hot Reload` на клавишу `r` и `Hot Restart` на `R`) и проверять дерево виджетов через `Flutter Inspector` в `DevTools`
+* как строить интерфейс с нуля из дерева виджетов (`MaterialApp`, `Scaffold`, `Container`, `Center`, `Text`)
